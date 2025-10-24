@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Gams - Settings</title>
+<title>Historytime- Settings</title>
 <link type="image/x-icon" rel="icon" href="img/gams-g.png">
 <link rel="stylesheet" href="assets/new.min.css">
 <style>
@@ -76,7 +76,7 @@ input:checked + .slider:before {
 
 .title {
 font-size: 50pt;
-font-family: 'facon', sans-serif;
+font-family: 'arial', sans-serif;
 letter-spacing: 3pt;
 }
 
@@ -158,7 +158,7 @@ transform: translateX(-50%) translateY(-50%);
 </head>
 <body onload="setSavedTheme()">
 <header>
-<h1 class="title">Gams - Settings</h1>
+<h1 class="title">Historytime - Settings</h1>
 </header>
 
 <label>Dark Mode:</label>
@@ -169,7 +169,7 @@ transform: translateX(-50%) translateY(-50%);
 
 <br><hr><br>
 
-<label>Open Gam Mode:</label>
+<label>Open Game Mode:</label>
 <select onchange='changeGamMode(this)' id='gamMode'>
   <option value="embed">In this tab</option>
   <option value="gam">In new tab</option>
@@ -211,8 +211,6 @@ transform: translateX(-50%) translateY(-50%);
 <button onclick="removeDisguise()">Don't Disguise Anymore</button>
 
 <br><hr><br>
-
-<a href="Gams.html"><small class="facon">Gams</small></a>
 
 <script>
 const BroadcastDisguise = new BroadcastChannel('BroadcastDisguise');
